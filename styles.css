@@ -1,0 +1,89 @@
+.main{
+    height: 100%;
+    background-color: black;
+    font-weight: bold ;
+    color: white;
+}
+.grid{
+    background-color: grey;
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+
+    justify-content: center;
+}
+.snake{
+    background-color: blue;
+    border: 2px solid black;
+
+}
+.food{
+    background-color: yellow;
+    border: 2px solid black;
+
+        
+}
+button{
+    margin: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 16px;
+    border-color: white;
+}
+.score{
+    display: flex;
+    justify-content: center;
+}
+.score h1{
+    margin: 0;
+}
+.total{
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    color: black;
+    padding: 5px;
+    font-size: 25px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.playagain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    /* padding: 5px; */
+}
+.playagain button{
+    margin: 20px;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.gamefinish{
+    /* height: 70%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 30px;
+
+}
+.playagaingamefinish{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
